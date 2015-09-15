@@ -66,6 +66,7 @@
 		BBB57AA71BA809FF00C38315 = {
 			isa = PBXGroup;
 			children = (
+				BBB57ADC1BA80C3D00C38315 /* Singleton */,
 				BBB57AB21BA809FF00C38315 /* Pinboard */,
 				BBB57ACC1BA809FF00C38315 /* PinboardTests */,
 				BBB57AB11BA809FF00C38315 /* Products */,
@@ -92,8 +93,6 @@
 				BBB57AC01BA809FF00C38315 /* Images.xcassets */,
 				BBB57AC21BA809FF00C38315 /* LaunchScreen.xib */,
 				BBB57AB31BA809FF00C38315 /* Supporting Files */,
-				BBB57AD91BA80AE300C38315 /* Network.h */,
-				BBB57ADA1BA80AE300C38315 /* Network.m */,
 			);
 			path = Pinboard;
 			sourceTree = "<group>";
@@ -122,6 +121,15 @@
 				BBB57ACE1BA809FF00C38315 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB57ADC1BA80C3D00C38315 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				BBB57AD91BA80AE300C38315 /* Network.h */,
+				BBB57ADA1BA80AE300C38315 /* Network.m */,
+			);
+			name = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
