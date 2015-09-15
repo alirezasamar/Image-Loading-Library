@@ -16,6 +16,8 @@
 		BBB57AD01BA809FF00C38315 /* PinboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57ACF1BA809FF00C38315 /* PinboardTests.m */; };
 		BBB57ADB1BA80AE300C38315 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57ADA1BA80AE300C38315 /* Network.m */; };
 		BBB57ADF1BA80D0100C38315 /* CPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57ADE1BA80D0100C38315 /* CPURLConnection.m */; };
+		BBB57AE21BA80DEB00C38315 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57AE11BA80DEB00C38315 /* NSString+MD5.m */; };
+		BBB57AE51BA80E6400C38315 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57AE41BA80E6400C38315 /* NSData+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		BBB57ADA1BA80AE300C38315 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = SOURCE_ROOT; };
 		BBB57ADD1BA80D0100C38315 /* CPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPURLConnection.h; sourceTree = "<group>"; };
 		BBB57ADE1BA80D0100C38315 /* CPURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPURLConnection.m; sourceTree = "<group>"; };
+		BBB57AE01BA80DEB00C38315 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		BBB57AE11BA80DEB00C38315 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		BBB57AE31BA80E6400C38315 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		BBB57AE41BA80E6400C38315 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +75,7 @@
 		BBB57AA71BA809FF00C38315 = {
 			isa = PBXGroup;
 			children = (
-				BBB57ADD1BA80D0100C38315 /* CPURLConnection.h */,
-				BBB57ADE1BA80D0100C38315 /* CPURLConnection.m */,
+				BBB57AE61BA80EAC00C38315 /* Commons */,
 				BBB57ADC1BA80C3D00C38315 /* Singleton */,
 				BBB57AB21BA809FF00C38315 /* Pinboard */,
 				BBB57ACC1BA809FF00C38315 /* PinboardTests */,
@@ -135,6 +140,19 @@
 				BBB57ADA1BA80AE300C38315 /* Network.m */,
 			);
 			name = Singleton;
+			sourceTree = "<group>";
+		};
+		BBB57AE61BA80EAC00C38315 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				BBB57AE31BA80E6400C38315 /* NSData+MD5.h */,
+				BBB57AE41BA80E6400C38315 /* NSData+MD5.m */,
+				BBB57AE01BA80DEB00C38315 /* NSString+MD5.h */,
+				BBB57AE11BA80DEB00C38315 /* NSString+MD5.m */,
+				BBB57ADD1BA80D0100C38315 /* CPURLConnection.h */,
+				BBB57ADE1BA80D0100C38315 /* CPURLConnection.m */,
+			);
+			name = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB57AE21BA80DEB00C38315 /* NSString+MD5.m in Sources */,
+				BBB57AE51BA80E6400C38315 /* NSData+MD5.m in Sources */,
 				BBB57ABC1BA809FF00C38315 /* ViewController.m in Sources */,
 				BBB57ADF1BA80D0100C38315 /* CPURLConnection.m in Sources */,
 				BBB57AB91BA809FF00C38315 /* AppDelegate.m in Sources */,
