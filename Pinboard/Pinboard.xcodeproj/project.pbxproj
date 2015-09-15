@@ -18,6 +18,7 @@
 		BBB57ADF1BA80D0100C38315 /* CPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57ADE1BA80D0100C38315 /* CPURLConnection.m */; };
 		BBB57AE21BA80DEB00C38315 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57AE11BA80DEB00C38315 /* NSString+MD5.m */; };
 		BBB57AE51BA80E6400C38315 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57AE41BA80E6400C38315 /* NSData+MD5.m */; };
+		BBB57AE91BA8116900C38315 /* UICustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB57AE81BA8116900C38315 /* UICustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		BBB57AE11BA80DEB00C38315 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		BBB57AE31BA80E6400C38315 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
 		BBB57AE41BA80E6400C38315 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		BBB57AE71BA8116900C38315 /* UICustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomTableViewCell.h; sourceTree = "<group>"; };
+		BBB57AE81BA8116900C38315 /* UICustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				BBB57AB81BA809FF00C38315 /* AppDelegate.m */,
 				BBB57ABA1BA809FF00C38315 /* ViewController.h */,
 				BBB57ABB1BA809FF00C38315 /* ViewController.m */,
+				BBB57AE71BA8116900C38315 /* UICustomTableViewCell.h */,
+				BBB57AE81BA8116900C38315 /* UICustomTableViewCell.m */,
 				BBB57ABD1BA809FF00C38315 /* Main.storyboard */,
 				BBB57AC01BA809FF00C38315 /* Images.xcassets */,
 				BBB57AC21BA809FF00C38315 /* LaunchScreen.xib */,
@@ -261,6 +266,7 @@
 				BBB57ADF1BA80D0100C38315 /* CPURLConnection.m in Sources */,
 				BBB57AB91BA809FF00C38315 /* AppDelegate.m in Sources */,
 				BBB57ADB1BA80AE300C38315 /* Network.m in Sources */,
+				BBB57AE91BA8116900C38315 /* UICustomTableViewCell.m in Sources */,
 				BBB57AB61BA809FF00C38315 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pinboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pinboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
