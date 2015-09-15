@@ -31,7 +31,6 @@
              withCompletionHandler:(void (^)(NSURLResponse *response, id responseObject))completionHandler
                  andFailureHandler: (void (^)(NSURLResponse *response, NSError *error))failureHandler;
 
-
 @property(nonatomic, retain) NSMutableArray *cacheArray;
 
 @end
